@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "If you use this example block, please cite it using this metadata."
+title: "Iris Classification PhenoWorks Block"
+type: software
+version: 0.1.0
+authors:
+  - name: "PhenoWorks Team"

@@ -1,0 +1,24 @@
+### Predict one Iris flower
+POST http://localhost:4000/predict
+Content-Type: application/json
+
+{
+  "measurements": {
+    "sepal_length": 5.1,
+    "sepal_width": 3.5,
+    "petal_length": 1.4,
+    "petal_width": 0.2
+  }
+}
+
+### Predict a batch of Iris flowers
+POST http://localhost:4000/predict_batch
+Content-Type: application/json
+
+{
+  "measurements": [
+    {"sepal_length": 5.1, "sepal_width": 3.5, "petal_length": 1.4, "petal_width": 0.2},
+    {"sepal_length": 7.0, "sepal_width": 3.2, "petal_length": 4.7, "petal_width": 1.4},
+    {"sepal_length": 6.3, "sepal_width": 3.3, "petal_length": 6.0, "petal_width": 2.5}
+  ]
+}

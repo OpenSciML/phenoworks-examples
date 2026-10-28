@@ -1,0 +1,7 @@
+### Greet PhenoWorks
+POST http://localhost:4000/greet
+Content-Type: application/json
+
+{
+  "name": "PhenoWorks User!"
+}

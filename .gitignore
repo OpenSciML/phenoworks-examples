@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Model stores, notebook checkpoints, and generated example archives
+.bentoml/
+.ipynb_checkpoints/
+/hello_world/*.zip
+/iris/*.zip
+
+# Validation outputs
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/

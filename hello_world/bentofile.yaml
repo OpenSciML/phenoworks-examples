@@ -1,0 +1,8 @@
+service: "hello_world:HelloWorldService" # module:class
+name: hello_world
+labels:
+  owner: haruiz
+  task: Test
+  display_name: Hellow world
+include:
+  - "hello_world.py"

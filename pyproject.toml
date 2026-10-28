@@ -1,0 +1,14 @@
+[project]
+name = "phenoworks-examples"
+version = "0.1.0"
+description = "BentoML model services and LgoPy analysis-block examples for PhenoWorks"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bentoml>=1.4.39",
+    "jupyterlab>=4.4.10",
+    "lgopy>=2.2.0",
+    "matplotlib>=3.10.7",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.9.1",
+]

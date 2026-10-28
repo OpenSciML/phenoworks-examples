@@ -1,0 +1,12 @@
+service: "iris_service:IrisClassifierService"
+name: iris_classifier
+labels:
+  task: classification
+  dataset: iris
+  display_name: Iris Classifier
+include:
+  - "iris_service.py"
+exclude:
+  - ".bentoml/"
+  - "__pycache__/"
+  - "*.zip"
